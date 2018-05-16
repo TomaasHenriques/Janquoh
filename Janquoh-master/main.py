@@ -13,6 +13,9 @@ def Main():
 
         player.Update()
         for bullet in player.bullets:
+            #for wall in walls:
+                #if wall.rect.colliderect(bullet.rect):
+                    #del bullet
             bullet.Update()
 
         for wall in walls:
